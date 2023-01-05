@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Raleway;
+}
+p{
+    font-family: Montserrat;
+}
+.flex-container{
+    background-color:#6D9773 ;
+    width: 100%;
+    height: auto;
+
+}
+.flex-subcontainer{
+    height: 50%;
+    display:flex;
+}
+h1{
+    text-align: left;
+}
+.flex-text{
+    width:56%;
+    height:auto;
+    padding-top: 106px;
+    padding-left: 89px;
+    color: white;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.flex-item{
+    width:45%;
+    height: auto;
+    color: white;
+    padding-top:108px ;
+    padding-bottom:50px ;
+    padding-left:180px ;
+    padding-right:200px ;
+    font-size: 19px;
+    font-weight: 12;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.flex-subcontainer2{
+ height: 50%;
+}
+.flex-img{
+    padding-left: 92px;
+    padding-top: 68px;
+    padding-bottom:62px ;
+    padding-right: 0px;
+}
+img{
+    width: 93.5%;
+    height: 400px;
+}
