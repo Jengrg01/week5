@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+.container{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #FEC9CF;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    line-height: 70px;
+    height: 70px;
+    bottom: 30px;
+}
+.Logo{
+    font-family: Caramel;
+    display: flex;
+    font-size: 95px;
+    font-weight: lighter;
+    color: #7B337D;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.Item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Item li{
+    list-style: none;
+    margin: 15px;
+    font-weight: bold;
+}
+.Item li a{
+    font-family: Caramel;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #430D4B;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.Item li:hover a, .contacts a:hover{
+    color:#D499C6;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contacts a{
+    font-size: 40px;
+    margin: 10px;
+    color:#512475;
+}
+.me , .image{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.image img{
+    height: 500px;
+    position: relative;
+    width: 90%;
+    border-radius: 50%;
+}
+.content h1{
+    font-size: 40px;
+    font-family: Caramel;
+    font-weight: bold;
+}
+.me{
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    word-spacing: 2px;
+    color: #430D4B;
+    text-align:justify;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FEC9CF;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    line-height: 70px;
+    height: 70px;
+    bottom: 30px;
+}
+.Logo{
+    font-family: Caramel;
+    display: flex;
+    font-size: 95px;
+    font-weight: lighter;
+    color: #7B337D;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.Item{
+    display: flex;
+}
+.Item li{
+    list-style: none;
+    margin: 15px;
+    font-weight: bold;
+}
+.Item li a{
+    font-family: Caramel;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #430D4B;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.Item li:hover a, .contacts a:hover{
+    color:#D499C6;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contacts a{
+    font-size: 40px;
+    margin: 10px;
+    color:#512475;
+}
+.hobbies{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    overflow: hidden;
+}
+.text, .images{
+    width: 50%;
+    float: left;
+    height: 650px;
+}
+.image img{
+    width: 100%;
+    height: 650px;
+    
+}
+.text{
+    width: 100%;
+    height: auto;
+}
+.hobbies h2{
+    font-size: 65px;
+    font-family: Caramel;
+    color: #f37297;
+    padding-bottom: 20px;
+}
+.hobbylist li , .Interest li{
+    list-style: none;
+    font-family: Caramel;
+    font-size: 38px;
+    color:#430D4B;
+    letter-spacing: 2px;;
+}

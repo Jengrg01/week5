@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+body{
+    background-color: #FFE0DD;
+}
+.container{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #FFE0DD;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    line-height: 70px;
+    height: 70px;
+    z-index: 110;
+}
+.Logo{
+    font-family: Caramel;
+    display: flex;
+    font-size: 80px;
+    font-weight: lighter;
+    color: #7B337D;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+b{
+    font-size: 50px;
+}
+.Item{
+    display: flex;
+}
+.Item li{
+    list-style: none;
+    margin: 15px;
+    font-weight: bold;
+}
+.Item li a{
+    font-family: Caramel;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #430D4B;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.Item li:hover a, .contacts a:hover{
+    color:#D499C6;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contacts a{
+    font-size: 30px;
+    margin: 10px;
+    color:#512475;
+}
+.main{
+    height: auto;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-item{
+    color: #430D4B;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+}
+.flex-item img{
+    width: 400px;
+    height: 400px;
+    padding-bottom: 10px;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 55px;
+    font-family: Caramel;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+p{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    word-spacing: 2px;
+}

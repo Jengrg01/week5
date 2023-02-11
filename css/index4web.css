@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+.container{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #FEC9CF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    line-height: 70px;
+    height: 70px;
+    bottom: 30px;
+}
+.Logo{
+    font-family: Caramel;
+    display: flex;
+    font-size: 95px;
+    font-weight: lighter;
+    color: #7B337D;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.Item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Item li{
+    list-style: none;
+    margin: 15px;
+    font-weight: bold;
+}
+.Item li a{
+    font-family: Caramel;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #430D4B;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.Item li:hover a, .contacts a:hover{
+    color:#D499C6;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contacts a{
+    font-size: 40px;
+    margin: 10px;
+    color:#512475;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.main h1{
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-family: Caramel;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: bold;
+}
+.main h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: Caramel;
+    color: #7B337D;
+}
+table{
+    box-shadow: 4px 8px 5px #512475;
+    text-align: center;
+    width: 70%;
+    height: 60%;
+}
+table th{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Roboto;
+    letter-spacing: 1px;
+}
+table td{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Rubik;
+}
